@@ -10,10 +10,11 @@ import (
 	"github.com/openzipkin/zipkin-go"
 	zipkinhttp "github.com/openzipkin/zipkin-go/reporter/http"
 	"github.com/spf13/viper"
+	"github.com/ztaoing/sec-kill-app/sk-app/model"
+	"github.com/ztaoing/sec-kill-pkg/pkg/bootstrap"
+	"github.com/ztaoing/sec-kill-pkg/pkg/config"
 	"os"
-	"secondkill/pkg/bootstrap"
-	"secondkill/pkg/config"
-	"secondkill/sk-app/model"
+
 	"sync"
 )
 

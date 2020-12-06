@@ -9,8 +9,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/samuel/go-zookeeper/zk"
+	"github.com/ztaoing/sec-kill-pkg/pkg/config"
 	"log"
-	"secondkill/pkg/config"
 	"time"
 )
 

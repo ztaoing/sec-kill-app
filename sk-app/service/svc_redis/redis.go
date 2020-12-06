@@ -8,10 +8,10 @@ package svc_redis
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/ztaoing/sec-kill-app/sk-app/config"
+	"github.com/ztaoing/sec-kill-app/sk-app/model"
+	pkgConfig "github.com/ztaoing/sec-kill-pkg/pkg/config"
 	"log"
-	pkgConfig "secondkill/pkg/config"
-	"secondkill/sk-app/config"
-	"secondkill/sk-app/model"
 	"time"
 )
 

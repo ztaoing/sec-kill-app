@@ -7,9 +7,9 @@ package svc_limit
 
 import (
 	"fmt"
+	"github.com/ztaoing/sec-kill-app/sk-app/model"
+	"github.com/ztaoing/sec-kill-pkg/pkg/config"
 	"log"
-	"secondkill/pkg/config"
-	"secondkill/sk-app/model"
 	"sync"
 )
 

@@ -8,9 +8,9 @@ package setup
 import (
 	"github.com/go-redis/redis"
 	"github.com/unknwon/com"
+	"github.com/ztaoing/sec-kill-app/sk-app/service/svc_redis"
+	"github.com/ztaoing/sec-kill-pkg/pkg/config"
 	"log"
-	"secondkill/pkg/config"
-	"secondkill/sk-app/service/svc_redis"
 	"time"
 )
 

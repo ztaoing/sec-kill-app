@@ -6,8 +6,8 @@
 package main
 
 import (
-	"secondkill/pkg/bootstrap"
-	"secondkill/sk-app/setup"
+	"github.com/ztaoing/sec-kill-app/sk-app/setup"
+	"github.com/ztaoing/sec-kill-pkg/pkg/bootstrap"
 )
 
 func main() {
