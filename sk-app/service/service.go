@@ -7,11 +7,11 @@ package service
 
 import (
 	"fmt"
+	"github.com/ztaoing/sec-kill-app/sk-app/config"
 	"github.com/ztaoing/sec-kill-app/sk-app/model"
 	"github.com/ztaoing/sec-kill-app/sk-app/service/svc_err"
 	"github.com/ztaoing/sec-kill-app/sk-app/service/svc_limit"
 	pkgConfig "github.com/ztaoing/sec-kill-pkg/pkg/config"
-	"github.com/ztaoing/sec-kill-pkg/sk-app/config"
 	"log"
 	"math/rand"
 	"time"
