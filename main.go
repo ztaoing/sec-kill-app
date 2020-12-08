@@ -6,7 +6,7 @@
 package main
 
 import (
-	"github.com/ztaoing/sec-kill-app/sk-app/setup"
+	"github.com/ztaoing/sec-kill-app/setup"
 	"github.com/ztaoing/sec-kill-pkg/pkg/bootstrap"
 )
 

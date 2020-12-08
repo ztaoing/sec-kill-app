@@ -15,8 +15,8 @@ import (
 	"github.com/gorilla/mux"
 	gozipkin "github.com/openzipkin/zipkin-go"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	endpts "github.com/ztaoing/sec-kill-app/sk-app/endpoint"
-	"github.com/ztaoing/sec-kill-app/sk-app/model"
+	endpts "github.com/ztaoing/sec-kill-app/endpoint"
+	"github.com/ztaoing/sec-kill-app/model"
 	"net/http"
 )
 

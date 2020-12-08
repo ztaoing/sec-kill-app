@@ -8,8 +8,8 @@ package endpoint
 import (
 	"context"
 	"github.com/go-kit/kit/endpoint"
-	"github.com/ztaoing/sec-kill-app/sk-app/model"
-	"github.com/ztaoing/sec-kill-app/sk-app/service"
+	"github.com/ztaoing/sec-kill-app/model"
+	"github.com/ztaoing/sec-kill-app/service"
 )
 
 type SkAppEndpoints struct {
